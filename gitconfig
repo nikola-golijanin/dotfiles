@@ -1,0 +1,45 @@
+[alias]
+    last = log -1 HEAD
+    cm = commit -m
+    ll = log --oneline
+    st = status
+    d = diff
+    cgl = config --global --list
+    cb = checkout -b
+    co = checkout
+    p = push
+    se = !f() { git log --all --grep=$1; }; f
+    gss = !git status
+    alss = !f() { git config --global -l | grep alias | sort; }; f
+    amend = commit --amend
+    aa = add .
+    dc = diff --check
+    llnm = log --oneline --no-merges
+    c = commit
+    ai = add -i
+    rs = restore --staged
+    lp = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(bold red)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    adduntracked = add -N
+    pr = pull --rebase
+    pf = push --force
+    pr-rebase = !f() { branch=$(git rev-parse --abbrev-ref HEAD); if [[ $branch == feature/* ]]; then git checkout dev && git pull && git checkout $branch && if git rebase dev; then git push --force; echo "Rebase and force push completed successfully"; else echo "CONFLICT: Resolve conflicts, then run:"; echo "  git rebase --continue"; echo "  git push --force"; echo "Or abort with: git rebase --abort"; fi; else echo "Not on a feature branch"; fi; }; f
+    gco = !f() { branch=$(git branch -a | grep -i $1 | head -n1 | sed "s/^[* ]*//" | sed "s|^remotes/origin/||"); if [ -z "$branch" ]; then echo "No branch found matching pattern: $1"; else echo "Checking out: $branch"; git checkout "$branch"; fi; }; f
+
+[user]
+    name = Nikola Golijanin
+    email = golijanin.nikola@outlook.com
+
+[core]
+    autocrlf = input
+    eol = lf
+	editor = vim
+
+[pull]
+    default = current
+    rebase = true
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true

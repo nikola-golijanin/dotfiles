@@ -1,0 +1,341 @@
+{
+    // UI Layout
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 20,
+    "editor.minimap.enabled": true,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.tabSizing": "shrink",
+    "editor.renderWhitespace": "trailing",
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "all",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.scrollbar.vertical": "visible",
+    "editor.scrollbar.horizontalScrollbarSize": 12,
+    "editor.scrollbar.verticalScrollbarSize": 12,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelScrollSensitivity": 1.5,
+    "editor.tabSize": 4,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": true,
+    "explorer.decorations.colors": true,
+    // Terminal - Linux
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/usr/bin/bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "/usr/bin/zsh"
+        }
+    },
+    "terminal.integrated.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 12,
+    "csharp.debug.console": "externalTerminal",
+    "csharp.debug.justMyCode": false,
+    "dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
+    "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
+    "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
+    "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "csharp.debug.hotReloadOnSave": false,
+    "terminal.explorerKind": "external",
+    "csharp.suppressDotnetRestoreNotification": true,
+    "editor.cursorSurroundingLines": 8,
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.symbolPath": "on",
+    "workbench.startupEditor": "none",
+    "workbench.enableExperiments": false,
+    "update.mode": "manual",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": false,
+    "[csharp]": {
+        "editor.rulers": [
+            {
+                "column": 120,
+                "color": "#80808080"
+            }
+        ],
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "csharp.format.enable": true,
+    "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+    "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+    "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+    "dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+    "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+    "csharp.inlayHints.enableInlayHintsForTypes": true,
+    "dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+    "dotnet.inlayHints.enableInlayHintsForParameters": true,
+    "editor.inlineSuggest.enabled": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWhenNoErrors": true,
+    "workbench.list.smoothScrolling": true,
+    "explorer.fileNesting.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.editor.enablePreview": false,
+    "editor.inlayHints.fontSize": 11,
+    "editor.largeFileOptimizations": false,
+    "editor.formatOnSave": true,
+    "problems.decorations.enabled": true,
+    "problems.autoReveal": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "debug.showVariableTypes": true,
+    "git.autofetch": true,
+    "zenMode.centerLayout": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideLineNumbers": false,
+    "debug.console.fontSize": 12,
+    "window.zoomLevel": 0,
+    "git.allowForcePush": true,
+    "git.blame.editorDecoration.enabled": true,
+    "git.blame.statusBarItem.template": "${authorName} (${authorDateAgo}) ",
+    "git.blame.editorDecoration.template": "${authorName} (${authorDateAgo}) - ${subject}",
+    "git.closeDiffOnOperation": true,
+    "git.replaceTagsWhenPull": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "vim.useSystemClipboard": true,
+    "vim.timeout": 400,
+    "vim.easymotion": true,
+    "vim.leader": "<space>",
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<Tab>": false
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<C-p>"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.files.action.focusOpenEditorsView"]
+        },
+        {
+            "before": ["<leader>", "g", "d"],
+            "commands": ["editor.action.revealDefinition"]
+        },
+        {
+            "before": ["<leader>", "g", "i"],
+            "commands": ["editor.action.goToImplementation"]
+        },
+        {
+            "before": ["<leader>", "g", "r"],
+            "commands": ["editor.action.goToReferences"]
+        },
+        {
+            "before": ["<leader>", "g", "b"],
+            "commands": ["workbench.action.navigateBack"]
+        },
+        {
+            "before": ["<leader>", "g", "f"],
+            "commands": ["workbench.action.navigateForward"]
+        },
+        {
+            "before": ["<leader>", "z", "m"],
+            "commands": ["workbench.action.toggleZenMode"]
+        },
+        {
+            "before": ["<leader>", "c", "f"],
+            "commands": ["editor.action.formatDocument"]
+        },
+        {
+            "before": ["<leader>", "g", "r"],
+            "commands": ["editor.action.referenceSearch.trigger"]
+        },
+        {
+            "before": ["<leader>", "c", "a"],
+            "commands": ["editor.action.quickFix"]
+        },
+        {
+            "before": ["<leader>", "c", "r"],
+            "commands": ["editor.action.refactor"]
+        },
+        {
+            "before": ["<leader>", "c", "c"],
+            "commands": ["editor.action.commentLine"]
+        },
+        {
+            "before": ["<leader>", "c", "s"],
+            "commands": ["editor.action.organizeImports"]
+        },
+        {
+            "before": ["<leader>", "s", "e"],
+            "commands": ["solutionExplorer.focus"]
+        },
+        {
+            "before": ["<leader>", "f", "e"],
+            "commands": ["workbench.explorer.fileView.focus"]
+        },
+        {
+            "before": ["<leader>", "o", "r"],
+            "commands": ["workbench.action.openRecent"]
+        },
+        {
+            "before": ["<leader>", "f", "o"],
+            "commands": ["workbench.action.gotoSymbol"]
+        },
+        {
+            "before": ["<leader>", "o"],
+            "commands": ["outline.focus"]
+        },
+        {
+            "before": ["<leader>", "s", "s"],
+            "commands": ["actions.find"]
+        },
+        {
+            "before": ["<leader>", "s", "f"],
+            "commands": ["search.action.openNewEditorToSide"]
+        },
+        {
+            "before": ["<leader>", "s", "r"],
+            "commands": ["workbench.action.replaceInFiles"]
+        },
+        {
+            "before": ["<leader>", "f", "r"],
+            "commands": ["references-view.findReferences"]
+        },
+        {
+            "before": ["<leader>", "d", "t"],
+            "commands": ["dotnet.views.toggleBetweenCodeAndRazorView"]
+        },
+        {
+            "before": ["<leader>", "d", "d"],
+            "commands": ["workbench.action.debug.start"]
+        },
+        {
+            "before": ["<leader>", "d", "r"],
+            "commands": ["workbench.action.debug.run"]
+        },
+        {
+            "before": ["<leader>", "b"],
+            "commands": ["editor.debug.action.toggleBreakpoint"]
+        },
+        {
+            "before": ["<leader>", "g", "s"],
+            "commands": ["workbench.view.scm"]
+        },
+        {
+            "before": ["<leader>", "g", "p"],
+            "commands": ["git.pull"]
+        },
+        {
+            "before": ["<leader>", "s", "c"],
+            "commands": ["git.stashIncludeUntracked"]
+        },
+        {
+            "before": ["<leader>", "r", "s"],
+            "commands": ["git.revertSelectedRanges"]
+        },
+        {
+            "before": ["<leader>", "v", "s"],
+            "commands": ["git.stashView"]
+        },
+        {
+            "before": ["<leader>", "a", "s"],
+            "commands": ["git.stashApply"]
+        },
+        {
+            "before": ["<leader>", "c", "o"],
+            "commands": ["git.checkout"]
+        },
+        {
+            "before": ["<leader>", "p", "e"],
+            "commands": ["workbench.action.pinEditor"]
+        },
+        {
+            "before": ["<leader>", "u", "e"],
+            "commands": ["workbench.action.unpinEditor"]
+        },
+        {
+            "before": ["<leader>", "t", "n"],
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["<leader>", "t", "p"],
+            "commands": ["workbench.action.previousEditor"]
+        },
+        {
+            "before": ["<leader>", "t", "c"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["<leader>", "g", "c"],
+            "commands": ["workbench.panel.chat"]
+        },
+        {
+            "before": ["<leader>", "1"],
+            "commands": ["workbench.action.focusFirstEditorGroup"]
+        },
+        {
+            "before": ["<leader>", "2"],
+            "commands": ["workbench.action.focusSecondEditorGroup"]
+        },
+        {
+            "before": ["<leader>", "n", "w"],
+            "commands": ["workbench.action.moveEditorToNewWindow"]
+        },
+        {
+            "before": ["<leader>", "3"],
+            "commands": ["workbench.action.focusThirdEditorGroup"]
+        },
+        {
+            "before": ["<leader>", "h"],
+            "commands": ["workbench.action.moveEditorToLeftGroup"]
+        },
+        {
+            "before": ["<leader>", "l"],
+            "commands": ["workbench.action.moveEditorToRightGroup"]
+        },
+        {
+            "before": ["<leader>", "j"],
+            "commands": ["workbench.action.moveEditorToBelowGroup"]
+        },
+        {
+            "before": ["<leader>", "k"],
+            "commands": ["workbench.action.moveEditorToAboveGroup"]
+        },
+        {
+            "before": ["<leader>", "n", "g"],
+            "commands": ["workbench.action.moveEditorToNextGroup"]
+        },
+        {
+            "before": ["<leader>", "p", "g"],
+            "commands": ["workbench.action.moveEditorToPreviousGroup"]
+        },
+        {
+            "before": ["<leader>", "t", "e"],
+            "commands": ["workbench.action.createTerminalEditor"]
+        }
+    ],
+    "gitlab.duoCodeSuggestions.enabled": false,
+    "gitlab.duoChat.enabled": false,
+    "gitlab.duoAgentPlatform.enabled": false,
+    "claudeCode.preferredLocation": "panel",
+    "chat.viewSessions.orientation": "stacked"
+}
