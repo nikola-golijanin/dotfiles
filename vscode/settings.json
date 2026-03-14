@@ -129,208 +129,502 @@
     },
     "vim.normalModeKeyBindings": [
         {
-            "before": ["<C-p>"],
-            "commands": ["workbench.action.quickOpen"]
+            "before": [
+                "<C-p>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
         },
         {
-            "before": ["<leader>", "e"],
-            "commands": ["workbench.files.action.focusOpenEditorsView"]
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.files.action.focusOpenEditorsView"
+            ]
         },
         {
-            "before": ["<leader>", "g", "d"],
-            "commands": ["editor.action.revealDefinition"]
+            "before": [
+                "<leader>",
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
         },
         {
-            "before": ["<leader>", "g", "i"],
-            "commands": ["editor.action.goToImplementation"]
+            "before": [
+                "<leader>",
+                "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
         },
         {
-            "before": ["<leader>", "g", "r"],
-            "commands": ["editor.action.goToReferences"]
+            "before": [
+                "<leader>",
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
         },
         {
-            "before": ["<leader>", "g", "b"],
-            "commands": ["workbench.action.navigateBack"]
+            "before": [
+                "<leader>",
+                "g",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.navigateBack"
+            ]
         },
         {
-            "before": ["<leader>", "g", "f"],
-            "commands": ["workbench.action.navigateForward"]
+            "before": [
+                "<leader>",
+                "g",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.navigateForward"
+            ]
         },
         {
-            "before": ["<leader>", "z", "m"],
-            "commands": ["workbench.action.toggleZenMode"]
+            "before": [
+                "<leader>",
+                "z",
+                "m"
+            ],
+            "commands": [
+                "workbench.action.toggleZenMode"
+            ]
         },
         {
-            "before": ["<leader>", "c", "f"],
-            "commands": ["editor.action.formatDocument"]
+            "before": [
+                "<leader>",
+                "c",
+                "f"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
         },
         {
-            "before": ["<leader>", "g", "r"],
-            "commands": ["editor.action.referenceSearch.trigger"]
+            "before": [
+                "<leader>",
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.referenceSearch.trigger"
+            ]
         },
         {
-            "before": ["<leader>", "c", "a"],
-            "commands": ["editor.action.quickFix"]
+            "before": [
+                "<leader>",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
         },
         {
-            "before": ["<leader>", "c", "r"],
-            "commands": ["editor.action.refactor"]
+            "before": [
+                "<leader>",
+                "c",
+                "r"
+            ],
+            "commands": [
+                "editor.action.refactor"
+            ]
         },
         {
-            "before": ["<leader>", "c", "c"],
-            "commands": ["editor.action.commentLine"]
+            "before": [
+                "<leader>",
+                "c",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
         },
         {
-            "before": ["<leader>", "c", "s"],
-            "commands": ["editor.action.organizeImports"]
+            "before": [
+                "<leader>",
+                "c",
+                "s"
+            ],
+            "commands": [
+                "editor.action.organizeImports"
+            ]
         },
         {
-            "before": ["<leader>", "s", "e"],
-            "commands": ["solutionExplorer.focus"]
+            "before": [
+                "<leader>",
+                "s",
+                "e"
+            ],
+            "commands": [
+                "solutionExplorer.focus"
+            ]
         },
         {
-            "before": ["<leader>", "f", "e"],
-            "commands": ["workbench.explorer.fileView.focus"]
+            "before": [
+                "<leader>",
+                "f",
+                "e"
+            ],
+            "commands": [
+                "workbench.explorer.fileView.focus"
+            ]
         },
         {
-            "before": ["<leader>", "o", "r"],
-            "commands": ["workbench.action.openRecent"]
+            "before": [
+                "<leader>",
+                "o",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.openRecent"
+            ]
         },
         {
-            "before": ["<leader>", "f", "o"],
-            "commands": ["workbench.action.gotoSymbol"]
+            "before": [
+                "<leader>",
+                "f",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
         },
         {
-            "before": ["<leader>", "o"],
-            "commands": ["outline.focus"]
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "outline.focus"
+            ]
         },
         {
-            "before": ["<leader>", "s", "s"],
-            "commands": ["actions.find"]
+            "before": [
+                "<leader>",
+                "s",
+                "s"
+            ],
+            "commands": [
+                "actions.find"
+            ]
         },
         {
-            "before": ["<leader>", "s", "f"],
-            "commands": ["search.action.openNewEditorToSide"]
+            "before": [
+                "<leader>",
+                "s",
+                "f"
+            ],
+            "commands": [
+                "search.action.openNewEditorToSide"
+            ]
         },
         {
-            "before": ["<leader>", "s", "r"],
-            "commands": ["workbench.action.replaceInFiles"]
+            "before": [
+                "<leader>",
+                "s",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.replaceInFiles"
+            ]
         },
         {
-            "before": ["<leader>", "f", "r"],
-            "commands": ["references-view.findReferences"]
+            "before": [
+                "<leader>",
+                "f",
+                "r"
+            ],
+            "commands": [
+                "references-view.findReferences"
+            ]
         },
         {
-            "before": ["<leader>", "d", "t"],
-            "commands": ["dotnet.views.toggleBetweenCodeAndRazorView"]
+            "before": [
+                "<leader>",
+                "d",
+                "t"
+            ],
+            "commands": [
+                "dotnet.views.toggleBetweenCodeAndRazorView"
+            ]
         },
         {
-            "before": ["<leader>", "d", "d"],
-            "commands": ["workbench.action.debug.start"]
+            "before": [
+                "<leader>",
+                "d",
+                "d"
+            ],
+            "commands": [
+                "workbench.action.debug.start"
+            ]
         },
         {
-            "before": ["<leader>", "d", "r"],
-            "commands": ["workbench.action.debug.run"]
+            "before": [
+                "<leader>",
+                "d",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.debug.run"
+            ]
         },
         {
-            "before": ["<leader>", "b"],
-            "commands": ["editor.debug.action.toggleBreakpoint"]
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "editor.debug.action.toggleBreakpoint"
+            ]
         },
         {
-            "before": ["<leader>", "g", "s"],
-            "commands": ["workbench.view.scm"]
+            "before": [
+                "<leader>",
+                "g",
+                "s"
+            ],
+            "commands": [
+                "workbench.view.scm"
+            ]
         },
         {
-            "before": ["<leader>", "g", "p"],
-            "commands": ["git.pull"]
+            "before": [
+                "<leader>",
+                "g",
+                "p"
+            ],
+            "commands": [
+                "git.pull"
+            ]
         },
         {
-            "before": ["<leader>", "s", "c"],
-            "commands": ["git.stashIncludeUntracked"]
+            "before": [
+                "<leader>",
+                "s",
+                "c"
+            ],
+            "commands": [
+                "git.stashIncludeUntracked"
+            ]
         },
         {
-            "before": ["<leader>", "r", "s"],
-            "commands": ["git.revertSelectedRanges"]
+            "before": [
+                "<leader>",
+                "r",
+                "s"
+            ],
+            "commands": [
+                "git.revertSelectedRanges"
+            ]
         },
         {
-            "before": ["<leader>", "v", "s"],
-            "commands": ["git.stashView"]
+            "before": [
+                "<leader>",
+                "v",
+                "s"
+            ],
+            "commands": [
+                "git.stashView"
+            ]
         },
         {
-            "before": ["<leader>", "a", "s"],
-            "commands": ["git.stashApply"]
+            "before": [
+                "<leader>",
+                "a",
+                "s"
+            ],
+            "commands": [
+                "git.stashApply"
+            ]
         },
         {
-            "before": ["<leader>", "c", "o"],
-            "commands": ["git.checkout"]
+            "before": [
+                "<leader>",
+                "c",
+                "o"
+            ],
+            "commands": [
+                "git.checkout"
+            ]
         },
         {
-            "before": ["<leader>", "p", "e"],
-            "commands": ["workbench.action.pinEditor"]
+            "before": [
+                "<leader>",
+                "p",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.pinEditor"
+            ]
         },
         {
-            "before": ["<leader>", "u", "e"],
-            "commands": ["workbench.action.unpinEditor"]
+            "before": [
+                "<leader>",
+                "u",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.unpinEditor"
+            ]
         },
         {
-            "before": ["<leader>", "t", "n"],
-            "commands": ["workbench.action.nextEditor"]
+            "before": [
+                "<leader>",
+                "t",
+                "n"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
         },
         {
-            "before": ["<leader>", "t", "p"],
-            "commands": ["workbench.action.previousEditor"]
+            "before": [
+                "<leader>",
+                "t",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
         },
         {
-            "before": ["<leader>", "t", "c"],
-            "commands": ["workbench.action.closeActiveEditor"]
+            "before": [
+                "<leader>",
+                "t",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
         },
         {
-            "before": ["<leader>", "g", "c"],
-            "commands": ["workbench.panel.chat"]
+            "before": [
+                "<leader>",
+                "g",
+                "c"
+            ],
+            "commands": [
+                "workbench.panel.chat"
+            ]
         },
         {
-            "before": ["<leader>", "1"],
-            "commands": ["workbench.action.focusFirstEditorGroup"]
+            "before": [
+                "<leader>",
+                "1"
+            ],
+            "commands": [
+                "workbench.action.focusFirstEditorGroup"
+            ]
         },
         {
-            "before": ["<leader>", "2"],
-            "commands": ["workbench.action.focusSecondEditorGroup"]
+            "before": [
+                "<leader>",
+                "2"
+            ],
+            "commands": [
+                "workbench.action.focusSecondEditorGroup"
+            ]
         },
         {
-            "before": ["<leader>", "n", "w"],
-            "commands": ["workbench.action.moveEditorToNewWindow"]
+            "before": [
+                "<leader>",
+                "n",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToNewWindow"
+            ]
         },
         {
-            "before": ["<leader>", "3"],
-            "commands": ["workbench.action.focusThirdEditorGroup"]
+            "before": [
+                "<leader>",
+                "3"
+            ],
+            "commands": [
+                "workbench.action.focusThirdEditorGroup"
+            ]
         },
         {
-            "before": ["<leader>", "h"],
-            "commands": ["workbench.action.moveEditorToLeftGroup"]
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToLeftGroup"
+            ]
         },
         {
-            "before": ["<leader>", "l"],
-            "commands": ["workbench.action.moveEditorToRightGroup"]
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToRightGroup"
+            ]
         },
         {
-            "before": ["<leader>", "j"],
-            "commands": ["workbench.action.moveEditorToBelowGroup"]
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToBelowGroup"
+            ]
         },
         {
-            "before": ["<leader>", "k"],
-            "commands": ["workbench.action.moveEditorToAboveGroup"]
+            "before": [
+                "<leader>",
+                "k"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToAboveGroup"
+            ]
         },
         {
-            "before": ["<leader>", "n", "g"],
-            "commands": ["workbench.action.moveEditorToNextGroup"]
+            "before": [
+                "<leader>",
+                "n",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToNextGroup"
+            ]
         },
         {
-            "before": ["<leader>", "p", "g"],
-            "commands": ["workbench.action.moveEditorToPreviousGroup"]
+            "before": [
+                "<leader>",
+                "p",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToPreviousGroup"
+            ]
         },
         {
-            "before": ["<leader>", "t", "e"],
-            "commands": ["workbench.action.createTerminalEditor"]
+            "before": [
+                "<leader>",
+                "t",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.createTerminalEditor"
+            ]
         }
     ],
     "gitlab.duoCodeSuggestions.enabled": false,
