@@ -1,4 +1,12 @@
 {
+    "gopls": {
+        "ui.semanticTokens": true,
+        "formatting.gofumpt": true
+    },
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go"
+    },
     // UI Layout
     "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
     "editor.fontSize": 12,
@@ -631,5 +639,9 @@
     "gitlab.duoChat.enabled": false,
     "gitlab.duoAgentPlatform.enabled": false,
     "claudeCode.preferredLocation": "panel",
-    "chat.viewSessions.orientation": "stacked"
+    "chat.viewSessions.orientation": "stacked",
+    "workbench.colorCustomizations": {
+        // "editorCursor.background": "#ffffff",
+        "editorCursor.foreground": "#FFED29"
+    }
 }

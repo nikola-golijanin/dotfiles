@@ -117,3 +117,6 @@ if ! shopt -oq posix; then
   fi
 fi
 export PATH="$HOME/.local/bin:$PATH"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin
