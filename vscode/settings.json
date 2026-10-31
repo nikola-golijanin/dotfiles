@@ -1,4 +1,89 @@
 {
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+    "resharper.region.region": "Europe",
+    "resharper.dataSharing.allowDataSharing": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FFB86C",
+        "editorCursor.background": "#000000",
+        "statusBar.noFolderBackground": "#8f2424",
+        "statusBar.debuggingBackground": "#263238",
+        "[Dark+]": {
+            "editor.lineHighlightBackground": "#0f0f0f",
+            "editor.lineHighlightBorder": "#0f0f0f"
+        }
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 4,
+    "workbench.modernUIFrostedGlass": true,
+    "workbench.modernUIFrostedGlassOpacity": 50,
+    "workbench.experimental.modernUIEditorTabStyle": "connected",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dark+",
+    //EDITOR
+    "editor.tabSize": 4,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 20,
+    "editor.minimap.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "editor.inlayHints.enabled": "onUnlessPressed",
+    "editor.inlayHints.fontSize": 11,
+    "editor.largeFileOptimizations": false,
+    "editor.mouseWheelZoom": true,
+    "editor.mouseWheelScrollSensitivity": 1.5,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.scrollbar.vertical": "visible",
+    "editor.renderLineHighlight": "all",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.renderControlCharacters": false,
+    "editor.cursorSurroundingLines": 8,
+    //EXPLORER
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": true,
+    "explorer.decorations.colors": true,
+    "explorer.fileNesting.enabled": true,
+    //FILES
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWhenNoErrors": true,
+    "files.insertFinalNewline": true,
+    //BREADCRUMBS
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.symbolPath": "on",
+    //DEBUG
+    "debug.showVariableTypes": true,
+    "debug.console.fontSize": 12,
+    //PROBLEMS
+    "problems.autoReveal": true,
+    "problems.decorations.enabled": true,
+    //TERMINAL
+    "terminal.integrated.fontFamily": "Cascadia Mono",
+    "terminal.integrated.fontSize": 15,
+    //C#
+    "[csharp]": {
+        "editor.rulers": [
+            {
+                "column": 120,
+                "color": "#80808080"
+            }
+        ]
+    },
+    //GO
     "gopls": {
         "ui.semanticTokens": true,
         "formatting.gofumpt": true
@@ -7,126 +92,21 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "golang.go"
     },
-    // UI Layout
-    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 12,
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 20,
-    "editor.minimap.enabled": true,
-    "workbench.editor.showTabs": "multiple",
-    "workbench.editor.tabSizing": "shrink",
-    "editor.renderWhitespace": "trailing",
-    "editor.renderControlCharacters": false,
-    "editor.renderLineHighlight": "all",
-    "editor.guides.highlightActiveBracketPair": false,
-    "editor.bracketPairColorization.enabled": true,
-    "workbench.tree.indent": 16,
-    "workbench.tree.renderIndentGuides": "none",
-    "editor.scrollbar.vertical": "visible",
-    "editor.scrollbar.horizontalScrollbarSize": 12,
-    "editor.scrollbar.verticalScrollbarSize": 12,
-    "editor.cursorBlinking": "solid",
-    "editor.cursorStyle": "line",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.smoothScrolling": true,
-    "editor.mouseWheelScrollSensitivity": 1.5,
-    "editor.tabSize": 4,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "explorer.compactFolders": false,
-    "explorer.decorations.badges": true,
-    "explorer.decorations.colors": true,
-    // Terminal - Linux
-    "terminal.integrated.defaultProfile.linux": "bash",
-    "terminal.integrated.profiles.linux": {
-        "bash": {
-            "path": "/usr/bin/bash",
-            "icon": "terminal-bash"
-        },
-        "zsh": {
-            "path": "/usr/bin/zsh"
-        }
-    },
-    "terminal.integrated.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 12,
-    "csharp.debug.console": "externalTerminal",
-    "csharp.debug.justMyCode": false,
-    "dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
-    "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
-    "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
-    "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
-    "github.copilot.nextEditSuggestions.enabled": false,
-    "dotnetAcquisitionExtension.enableTelemetry": false,
-    "csharp.debug.hotReloadOnSave": false,
-    "terminal.explorerKind": "external",
-    "csharp.suppressDotnetRestoreNotification": true,
-    "editor.cursorSurroundingLines": 8,
-    "breadcrumbs.enabled": true,
-    "breadcrumbs.filePath": "on",
-    "breadcrumbs.symbolPath": "on",
-    "workbench.startupEditor": "none",
-    "workbench.enableExperiments": false,
-    "update.mode": "manual",
-    "editor.guides.bracketPairs": "active",
-    "editor.guides.bracketPairsHorizontal": false,
-    "[csharp]": {
-        "editor.rulers": [
-            {
-                "column": 120,
-                "color": "#80808080"
-            }
-        ],
-        "editor.defaultFormatter": "ms-dotnettools.csharp"
-    },
-    "csharp.format.enable": true,
-    "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
-    "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
-    "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
-    "dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
-    "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
-    "csharp.inlayHints.enableInlayHintsForTypes": true,
-    "dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
-    "dotnet.inlayHints.enableInlayHintsForParameters": true,
-    "editor.inlineSuggest.enabled": true,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveWhenNoErrors": true,
-    "workbench.list.smoothScrolling": true,
-    "explorer.fileNesting.enabled": true,
-    "editor.formatOnPaste": true,
-    "editor.mouseWheelZoom": true,
-    "workbench.editor.enablePreview": false,
-    "editor.inlayHints.fontSize": 11,
-    "editor.largeFileOptimizations": false,
-    "editor.formatOnSave": true,
-    "problems.decorations.enabled": true,
-    "problems.autoReveal": true,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "editor.lineNumbers": "relative",
-    "editor.linkedEditing": true,
-    "debug.showVariableTypes": true,
-    "git.autofetch": true,
-    "zenMode.centerLayout": false,
-    "zenMode.hideActivityBar": false,
-    "zenMode.hideLineNumbers": false,
-    "debug.console.fontSize": 12,
-    "window.zoomLevel": 0,
+    "go.inlayHints.parameterNames": true,
+    "go.toolsManagement.autoUpdate": true,
+    //GIT
     "git.allowForcePush": true,
-    "git.blame.editorDecoration.enabled": true,
-    "git.blame.statusBarItem.template": "${authorName} (${authorDateAgo}) ",
-    "git.blame.editorDecoration.template": "${authorName} (${authorDateAgo}) - ${subject}",
+    "git.blame.statusBarItem.template": "${authorName} (${authorDateAgo}) - ${subject}",
     "git.closeDiffOnOperation": true,
     "git.replaceTagsWhenPull": true,
-    "editor.inlayHints.enabled": "offUnlessPressed",
-    "[dockercompose]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "advanced",
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": false,
-            "strings": true
-        },
-        "editor.defaultFormatter": "redhat.vscode-yaml"
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    //REMOTE
+    "remote.SSH.remotePlatform": {
+        "192.168.0.12": "linux",
+        "srv05.sowadev.com": "linux"
     },
+    //VIM
     "vim.useSystemClipboard": true,
     "vim.timeout": 400,
     "vim.easymotion": true,
@@ -635,13 +615,17 @@
             ]
         }
     ],
-    "gitlab.duoCodeSuggestions.enabled": false,
-    "gitlab.duoChat.enabled": false,
-    "gitlab.duoAgentPlatform.enabled": false,
-    "claudeCode.preferredLocation": "panel",
-    "chat.viewSessions.orientation": "stacked",
-    "workbench.colorCustomizations": {
-        // "editorCursor.background": "#ffffff",
-        "editorCursor.foreground": "#FFED29"
+    //ZEN MODE
+    "zenMode.centerLayout": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideLineNumbers": false,
+    "security.promptForLocalFileProtocolHandling": false,
+    //COPILOT
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "go": true
     }
 }
